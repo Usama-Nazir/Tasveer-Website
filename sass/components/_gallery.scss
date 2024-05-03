@@ -1,0 +1,54 @@
+.gallery{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+
+    &__pages{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    &__list{
+        list-style: none;
+        color: $black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    &__items{
+        
+    }
+    &__links{
+        padding: .9rem;
+        text-decoration: none;
+        color: $black;
+        font-weight: 700;
+
+        &--active{
+            background-color: $pink;
+            color: $white;
+            border-radius: 5px;
+        }
+    }
+    &__grid{
+        width: 100%;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 330px);
+       gap: 20px;
+       grid-template-rows: repeat(3,300px);
+        // gap: 1rem;
+        justify-content: center;
+    }
+    &__fig, &__pic{
+    width: 100%; 
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    object-fit: cover;
+    }
+
+}

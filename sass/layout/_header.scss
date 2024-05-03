@@ -1,0 +1,112 @@
+.nav{
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+
+    &__logo{
+        width: 20%;
+
+    }
+    &__logo-name{
+        font-size: 2.3rem;
+        color: $black;
+    }
+    &__span{
+        font-size: 2.3rem;
+        color: $pink;
+    }
+    &__pages{
+        width: 40%;
+        
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items{
+        color: $black;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    &__links{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $black;
+
+        &--active{
+            color: $pink;
+        }
+    }
+    &__login{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    &__search{
+        width: 30px;
+    }
+    &__icon{
+        color: $black;
+        font-size: 1.7rem;
+    }
+    &__btn{
+        width: 120px;
+        background-color: $pink;
+        color: $white;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+}
+.header{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(/images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+
+    &__bio{
+        width: 100%;
+        text-align: center;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    &__camera{
+        font-size: 4rem;
+    }
+    &__pera{
+        font-size: 4rem;
+        // letter-spacing: 2px;
+        font-weight: 700;
+    }
+    &__search-btn{
+        width: 470px;
+        padding: 20px;
+        outline: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+    &__btn{
+        width: 200px;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        color: $white;
+        background-color: $pink-light;
+    }
+}

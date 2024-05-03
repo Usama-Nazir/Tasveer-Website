@@ -1,0 +1,50 @@
+.info{
+    width: 100%;
+    margin-top: 6rem;
+    text-align: center;
+
+    &__heading{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        line-height: 2;
+    }
+    &__span{
+        color: $pink;
+    }
+    &__pera{
+        font-size: .9rem;
+        color: $grey;
+    }
+    // &__pic{
+    //     width: 80px;
+    //     height: 80px;
+    //     background-size: cover;
+    // }
+    &__intro{
+        width: 55%;
+        margin: 15px auto;
+    }
+    &__heading-medium{
+        padding: 1.5rem;
+    }
+    &__social-icons{
+        width: 100%;
+        text-align: center;
+    }
+    &__icons-size{
+        display: inline-block;
+    }
+    &__icons{
+        width: 80px;
+    }
+    &__gallery{
+        width: 100%;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__fig, img{
+        width: 200px;
+    }
+}
